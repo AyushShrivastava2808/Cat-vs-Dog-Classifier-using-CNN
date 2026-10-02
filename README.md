@@ -25,11 +25,11 @@ It provides both **local** and **Google Colab** notebooks, giving flexibility to
 ---
 
 ## 📂 Project Structure
-- `cat_dog_classifier.ipynb` → Local training notebook (uses OpenCV to read images and CNN for classification).
-- `cat_dog_classifier_colab.ipynb` → Google Colab version (optimized for cloud, dataset via Drive/Kaggle).
-- `requirements.txt` → List of dependencies required for local execution.
-- `README.md` → Documentation and usage guide.
-- Pretrained model → [Download here](YOUR_GOOGLE_DRIVE_LINK)
+- `cat_dog_classifier.ipynb` → Local training notebook (uses OpenCV to read images and CNN for classification).  
+- `cat_dog_classifier_colab.ipynb` → Google Colab version (optimized for cloud, dataset via Drive/Kaggle).  
+- `requirements.txt` → List of dependencies required for local execution.  
+- `README.md` → Documentation and usage guide.  
+- Pretrained model → [Download here](YOUR_GOOGLE_DRIVE_LINK)  
 
 ---
 
@@ -39,39 +39,3 @@ Clone the repository and install dependencies:
 git clone https://github.com/AyushShrivastava2808/Cat-vs-Dog-Classifier.git
 cd Cat-vs-Dog-Classifier
 pip install -r requirements.txt
-
----
-
-📋 Requirements
-Dependencies are listed in requirements.txt:
-
-TensorFlow
-
-Keras
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-scikit-learn
-
-OpenCV
-
-📈 Results
-Achieved high accuracy on validation dataset.
-
-Model generalizes well for unseen cat/dog images.
-
-Performance can be further improved with data augmentation and hyperparameter tuning.
-
-🔮 Future Work
-Add a simple UI using Streamlit or Gradio for interactive predictions.
-
-Improve accuracy with advanced augmentation techniques.
-
-Deploy as a web app or integrate into a mobile application.
-
-👨‍💻 About the Author
-Ayush Shrivastava
